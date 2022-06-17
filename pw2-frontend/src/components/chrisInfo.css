@@ -1,0 +1,53 @@
+#light .main-container {
+  color: black;
+}
+
+#dark .main-container {
+  color: white;
+}
+
+.main-container {
+  font-size: 24px;
+  margin: 25px;
+  height: 200px;
+}
+
+.name {
+  text-align: center;
+}
+
+.sub-name {
+  text-align: center;
+}
+
+.resume-icon {
+  height: 80px;
+  width: auto;
+  float: left;
+  padding: 10px;
+}
+
+.linkedin-icon {
+  height: 70px;
+  width: auto;
+  float: left;
+  padding: 10px;
+}
+
+.email-icon {
+  height: 75px;
+  width: auto;
+  float: left;
+  padding: 10px;
+}
+
+.github-icon {
+  height: 100px;
+  width: auto;
+  float: left;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}

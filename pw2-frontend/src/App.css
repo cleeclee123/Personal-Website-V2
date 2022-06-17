@@ -1,8 +1,12 @@
 #light {
+  width: 100vw;
+  min-height: 100vh;
   background-color: #ffffff;
 }
 
 #dark {
+  width: 100vw;
+  min-height: 100vh;
   background-color: #312f31;
 }
 

@@ -2,6 +2,9 @@ import "./App.css";
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
 
+import ChrisInfo from "./components/chrisInfo";
+import "./components/chrisInfo.css";
+
 export const ThemeContext = createContext(null);
 
 function App() {
@@ -20,6 +23,7 @@ function App() {
         </div>
 
         {/* Start adding components here */}
+        <ChrisInfo/>
 
 
       </div>
